@@ -1,0 +1,42 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+     max-width: 1922px;
+}
+
+.head-block{
+    width: 1921px;
+    height: 80px;
+    border: 1px solid black;
+    position: sticky; 
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around; 
+}
+
+.head-logo{
+    width: 262px; 
+    height: 48px;
+    margin-top: 19px;
+    
+}
+.head-links{
+    width: 538px;
+    height: 78px;
+    border: 1px green solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter;
+    font-size: regular;
+}
+
+.head-links p:first-child{
+    font-weight: bold;
+    color: #22CCB2;
+    border-bottom: 4px solid #22CCB2 ;
+    padding:28px;
+    
+}
