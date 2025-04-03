@@ -31,12 +31,23 @@ body {
     align-items: center;
     font-family: Inter;
     font-size: regular;
+    box-sizing: border-box;
+    
 }
 
 .head-links p:first-child{
     font-weight: bold;
     color: #22CCB2;
     border-bottom: 4px solid #22CCB2 ;
-    padding:28px;
     
+    
+    
+}
+
+.head-links p{
+    display: flex;
+    flex-grow:1;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
 }
