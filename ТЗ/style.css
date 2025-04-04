@@ -3,16 +3,25 @@ body {
     margin: 0px;
     padding: 0px;
      max-width: 1922px;
+     
+}
+
+.wrapper{
+   width: 1921px;
+   height: 5643px;
+   padding: 0px;
 }
 
 .head-block{
     width: 1921px;
     height: 80px;
-    border: 1px solid black;
     position: sticky; 
+    border: 1px solid black;
+    top:0px;
     display: flex;
     flex-direction: row;  
     justify-content: space-around; 
+    
 }
 
 .head-logo{
@@ -20,11 +29,11 @@ body {
     height: 48px;
     margin-top: 19px;
     
+    
 }
 .head-links{
     width: 538px;
-    height: 78px;
-    border: 1px green solid;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -32,22 +41,34 @@ body {
     font-family: Inter;
     font-size: regular;
     box-sizing: border-box;
-    
+    padding: 0;
+
 }
 
-.head-links p:first-child{
+.head-links button{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head-links button:active{
     font-weight: bold;
     color: #22CCB2;
     border-bottom: 4px solid #22CCB2 ;
-    
-    
-    
 }
 
-.head-links p{
-    display: flex;
-    flex-grow:1;
-    align-items: center;
-    justify-content: center;
-    max-height: 100%;
+.hemen-link-button{
+width:133px;
+height: 44px;
+background-color: #ffffff;
+color: #22CCB2;
+border-radius: 6px;
+border: 1px #22CCB2 solid;
+margin-top:19px;
+
 }
+
+
