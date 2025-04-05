@@ -10,17 +10,18 @@ body {
    width: 1921px;
    height: 5643px;
    padding: 0px;
+   margin: 0px;
 }
 
 .head-block{
     width: 1921px;
     height: 80px;
     position: sticky; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     top:0px;
     display: flex;
     flex-direction: row;  
-    justify-content: space-around; 
+   
     
 }
 
@@ -28,8 +29,8 @@ body {
     width: 262px; 
     height: 48px;
     margin-top: 19px;
-    
-    
+    margin-left: 240px;
+    margin-right: 190px;
 }
 .head-links{
     width: 538px;
@@ -42,6 +43,7 @@ body {
     font-size: regular;
     box-sizing: border-box;
     padding: 0;
+    margin-right: 320px;
 
 }
 
@@ -54,7 +56,7 @@ body {
     padding: 0px;
 }
 
-.head-links button:active{
+.head-links button:focus {
     font-weight: bold;
     color: #22CCB2;
     border-bottom: 4px solid #22CCB2 ;
@@ -71,4 +73,6 @@ margin-top:19px;
 
 }
 
-
+.hemen-link-button:active{
+    box-shadow:3px -3px 10px  #22CCB2;
+}
