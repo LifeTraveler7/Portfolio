@@ -54,11 +54,22 @@ body {
     border:none;
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 162%;
+    color: #565e6c;
 }
 
 .head-links button:focus {
     font-weight: bold;
     color: #22CCB2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 26px; */ 
+    line-height: 162%;
+    color: #22ccb2;
     border-bottom: 4px solid #22CCB2 ;
 }
 
@@ -70,6 +81,11 @@ color: #22CCB2;
 border-radius: 6px;
 border: 1px #22CCB2 solid;
 margin-top:19px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+/* line-height: 26px; */ 
+line-height: 162%;
 
 }
 
