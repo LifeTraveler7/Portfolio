@@ -16,7 +16,7 @@ body {
 .head-block{
     width: 1921px;
     height: 80px;
-    position: sticky; 
+    position: fixed; 
     /* border: 1px solid black; */
     top:0px;
     display: flex;
