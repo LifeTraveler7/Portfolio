@@ -241,7 +241,6 @@ border-radius: 16px;
     margin:0px;   
 }
 
-
 .bonus-card{
     border: 0px solid #bcc1ca;
     border-radius: 16px;
@@ -250,6 +249,32 @@ border-radius: 16px;
     margin-top: 80px;
     box-shadow: 0 0 1px 0 rgba(23, 26, 31, 0.07), 0 0 2px 0 rgba(23, 26, 31, 0.12);
     background: rgba(248, 249, 250, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items:center  ;
+    flex-direction: column;
+}
+
+.bonus-card h5{
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 30px; */ 
+    line-height: 150%;
+    text-align: center;
+    color: #323842;
+}
+
+.bonus-card p{
+    width: 272px;
+    height: 88px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 22px; */ 
+    line-height: 157%;
+    text-align: center;
+    color: #565e6c;
 }
 
 #first-card{
