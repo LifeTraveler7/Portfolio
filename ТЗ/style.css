@@ -11,6 +11,8 @@ body {
    height: 5643px;
    padding: 0px;
    margin: 0px;
+   border: 1px solid black;
+   box-sizing: border-box;
 }
 
 .head-block{
@@ -370,6 +372,7 @@ border-radius: 16px;
     /* border: 1px solid violet; */
     background-color: #F8F9FA;
     padding: 0px;
+    z-index: 8;
 }
 
 .feedback-container{
@@ -380,15 +383,21 @@ border-radius: 16px;
     /* border: 1px solid black; */
     position: relative;
     top: 120px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.feedback-container img{
-    width: 115px;
-    height: 44px;
+.backround-img{
+    width: 105.14px;
+    height: 83.25px;
     position: absolute;
     top:75px;
     left: 514px;
     z-index: 8;
+    border: none;
+    
 }
 
 .feedback-container h3{
@@ -400,4 +409,102 @@ border-radius: 16px;
     color: #22ccb2;
     width: 326px;
     height: 112px;
+    z-index: 9;
+}
+
+.feedback-card{
+    width: 491px;
+    height: 276px;
+    z-index: 9;
+    
+}
+
+#feedback-text{
+    width: 100%;
+    height: 180px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;    
+    /* line-height: 36px; */ 
+    line-height: 150%;
+    color: #565e6c;
+    margin: 0px;
+}
+
+.user-card{
+    margin-top: 32px;
+    width: 280px;
+    height: 64px;
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    
+}
+
+.user-photo{
+    width: 64px;
+    height: 64px;
+    border-radius:32px;
+    margin: -1px;
+    margin-right: 16px;
+    padding: 0px;
+}
+
+
+.user-info{
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: start;
+}
+
+.user-info p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 22px;
+    
+    font-size: 14px;
+    /* line-height: 22px; */ 
+    line-height: 157%;
+    color: #171a1f;
+    margin: 0px;
+}
+
+.user-info h6{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 30px; */ 
+    line-height: 150%;
+    color: #171a1f;
+    
+}
+
+.arrows{
+    width: 64px;
+    height: 24px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:102px;
+    right: 46px;
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.left-arrow{
+    width: 24px;
+    height: 24px;
+    background-color: greenyellow;
+}
+
+.right-arrow{
+    width: 24px;
+    height: 24px;
+    background-color: greenyellow;
 }
