@@ -11,6 +11,8 @@ body {
    height: 5643px;
    padding: 0px;
    margin: 0px;
+   border: 1px solid black;
+   box-sizing: border-box;
 }
 
 .head-block{
@@ -21,6 +23,8 @@ body {
     top:0px;
     display: flex;
     flex-direction: row;  
+    background-color: #ffffff;
+    z-index: 999;
    
     
 }
@@ -91,4 +95,423 @@ line-height: 162%;
 
 .hemen-link-button:active{
     box-shadow:3px -3px 10px  #22CCB2;
+}
+
+/* Main block */
+.main-wrapper{
+    width: 1922px;
+    height: 5524px;
+    margin:0px;
+    margin-top: 119px;
+     /* border: 1px solid black;  */
+    position: relative;
+}
+
+.mobile-operator-block{
+    width: 100%;
+    height: 644px;
+    /* border: 1px solid green; */
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+
+}
+
+#girl-pctr{
+    position: absolute;
+    left: 259px;
+    z-index: 3;
+}
+
+.back-block{
+width: 1442px;
+height: 526px;
+background-color: #22CCB2;
+position: absolute;
+z-index: 2;
+margin: 48px 240px 70px 240px;
+border-radius: 16px;
+
+}
+
+.back-block-text{
+    width:605px;
+    height: 359px;
+    /* border: 1px solid white; */
+    position: absolute;
+    z-index: 3;
+    top: 110px;
+    right: 171px;
+    padding: 0px;
+}
+
+.bonus-header-text{
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    /* line-height: 68px; */ 
+    line-height: 142%;
+    color: #fff;
+    width: 605px;
+    height: 136px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.operator-block-text{
+  width: 528px;
+  height: 112px;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.back-block-text button{
+    border-radius: 6px;
+    width:180px;
+    height: 52px;
+    margin-top: 40px;
+}
+#bttn1{
+    background-color:white ;
+    margin-right: 38px;
+    border: 1px solid white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 28px; */ 
+    line-height: 156%;
+    color: #171a1f;
+}
+
+#bttn1:active{
+    box-shadow:0px 0px 10px 5px #91f3fa;
+}
+
+#bttn2{
+    background-color: #22CCB2;
+    border: 1px solid white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 28px; */ 
+    line-height: 156%;
+    color: #fff;
+}
+
+#bttn2:active{
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+
+
+/* Bonus block */
+.bonus-block{
+    width: 100%;
+    height: 696px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top:605px;
+    left: 0px;
+    z-index: 8;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0px;
+}
+
+.popular-bonus-header-wr{
+     position: absolute;
+    top: 120px;
+     left: 678px;
+   
+}
+#popular-bonus-header{
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;  
+    text-align: center;
+    color: #323842;
+    margin:0px;   
+}
+
+.bonus-card{
+    border: 0px solid #bcc1ca;
+    border-radius: 16px;
+    width: 336px;
+    height: 352px;
+    margin-top: 80px;
+    box-shadow: 0 0 1px 0 rgba(23, 26, 31, 0.07), 0 0 2px 0 rgba(23, 26, 31, 0.12);
+    background: rgba(248, 249, 250, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items:center  ;
+    flex-direction: column;
+}
+
+.bonus-card h5{
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 30px; */ 
+    line-height: 150%;
+    text-align: center;
+    color: #323842;
+}
+
+.bonus-card p{
+    width: 272px;
+    height: 88px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 22px; */ 
+    line-height: 157%;
+    text-align: center;
+    color: #565e6c;
+}
+
+#first-card{
+    margin-top: 256px;
+    margin-left: 240px;
+}
+
+#second-card{
+    margin-top: 256px;  
+    margin-left: 32px;
+}
+
+#third-card{
+    margin-top: 256px;
+    margin-left: 32px;
+}
+
+#fourth-card{
+    margin-top: 256px;
+    margin-left: 32px;
+}
+
+/* Suggestion */
+
+.suggestion-block{
+    width: 100%;
+    height: 504px;
+    /* border: 1px solid yellowgreen; */
+    position: absolute;
+    z-index: 8;
+    background-color: #22CCB2;
+    top: 1325px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+
+.suggestion-block h3{
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    /* line-height: 56px; */ 
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    width: 464px;
+    height: 112px;
+    margin-top: 120px;
+    margin-bottom: 0px; 
+}
+
+.suggestion-block >p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */ 
+    line-height: 162%;
+    text-align: center;
+    color: #fff;
+    width: 631px;
+    height: 78px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.suggestion-block button{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    width: 204px;
+    height: 52px;  
+    margin-top: 40px;  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 28px; */ 
+    line-height: 156%;
+    color: #636ae8;
+}
+
+.suggestion-block button:active{
+    box-shadow:0px 0px 10px 5px #91f3fa;
+}
+/* Feedback */
+
+.feedback-wrapper{
+    width: 100%;
+    height: 736px;
+    position: absolute;
+    top: 1957px;
+    /* border: 1px solid violet; */
+    background-color: #F8F9FA;
+    padding: 0px;
+    z-index: 8;
+}
+
+.feedback-container{
+    width: 1176px;
+    height: 496px;
+    background-color:#ffffff ;
+    margin:0 auto;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 120px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backround-img{
+    width: 105.14px;
+    height: 83.25px;
+    position: absolute;
+    top:75px;
+    left: 514px;
+    z-index: 8;
+    border: none;
+    
+}
+
+.feedback-container h3{
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    /* line-height: 56px; */ 
+    line-height: 140%;
+    color: #22ccb2;
+    width: 326px;
+    height: 112px;
+    z-index: 9;
+}
+
+.feedback-card{
+    width: 491px;
+    height: 276px;
+    z-index: 9;
+    
+}
+
+#feedback-text{
+    width: 100%;
+    height: 180px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;    
+    /* line-height: 36px; */ 
+    line-height: 150%;
+    color: #565e6c;
+    margin: 0px;
+}
+
+.user-card{
+    margin-top: 32px;
+    width: 280px;
+    height: 64px;
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    
+}
+
+.user-photo{
+    width: 64px;
+    height: 64px;
+    border-radius:32px;
+    margin: -1px;
+    margin-right: 16px;
+    padding: 0px;
+}
+
+
+.user-info{
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: start;
+}
+
+.user-info p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 22px;
+    
+    font-size: 14px;
+    /* line-height: 22px; */ 
+    line-height: 157%;
+    color: #171a1f;
+    margin: 0px;
+}
+
+.user-info h6{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 30px; */ 
+    line-height: 150%;
+    color: #171a1f;
+    
+}
+
+.arrows{
+    width: 64px;
+    height: 24px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:102px;
+    right: 46px;
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.left-arrow{
+  width: 24px;
+  height: 24px;
+  background-image: white;
+  background-image: url('img/Arrow1.svg');
+  background-position-x: center;
+  background-position-y:center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.right-arrow{
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
 }
