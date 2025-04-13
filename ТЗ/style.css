@@ -515,3 +515,76 @@ border-radius: 16px;
     font-size: medium;
     font-weight: bold;
 }
+
+/* Often questions */
+.often-questions{
+    width: 100%;
+    height: 989px;
+    position: absolute;
+    top:2813px;
+    background-color: #22CCB2;
+
+}
+
+.often-questions h3{
+    width: 326px;
+    height: 112px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    /* line-height: 56px; */ 
+    line-height: 140%;
+    color: #fff;
+    margin: 41px 1357px 0px 238px;
+}
+
+.question-block{
+    width: 1440px;
+    height: 636px;
+    /* border: 1px solid white; */
+    margin: 80px 243px 120px 238px;
+    
+}
+
+.question-card{
+    width: 100%;
+    height: 108px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.question-card p:first-child{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 22px; */ 
+    line-height: 110%;
+    color: #565e6c;
+}
+
+.question-card h6{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 22px; */ 
+    line-height: 110%;
+    color: #565e6c;
+    max-width: 335px;
+}
+
+.question-card p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 22px; */ 
+    line-height: 137%;
+    color: #565e6c;
+   max-width: 701px;
+    
+}
