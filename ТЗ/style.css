@@ -595,6 +595,7 @@ border-radius: 16px;
     position: absolute;
     top: 3922px;
     background-color: #F3F4F6;
+    overflow: hidden;
 }
 
 .contact-us img{
@@ -680,4 +681,22 @@ border-radius: 16px;
 
 #form-bttn:hover{
     box-shadow: 0px 0px 10px 5px #91f3fa;
+}
+
+#tr7{
+    width: 734px;
+    height: 677px;
+    position: absolute;
+    top: 269.24px;
+    right: 251.09px;
+    z-index: 7;
+}
+
+#tr8{
+    width: 83px;
+    height: 76px;
+    position: absolute;
+    z-index: 7;
+    top: 482px;
+    right: 249.12px;
 }
