@@ -491,7 +491,6 @@ border-radius: 16px;
 .arrows{
     width: 64px;
     height: 24px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -501,23 +500,16 @@ border-radius: 16px;
     margin: 0px;
     padding: 0px;
 }
-.left-arrow{
-  width: 24px;
-  height: 24px;
-  background-image: white;
-  background-image: url('img/Arrow1.svg');
-  background-position-x: center;
-  background-position-y:center;
-  margin: 0px;
-  padding: 0px;
-}
 
-.right-arrow{
+
+.arrow{
     width: 24px;
     height: 24px;
     background-color: #ffffff;
-    font-size: medium;
-    font-weight: bold;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: none;
 }
 
 /* Often questions */
