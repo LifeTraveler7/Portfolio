@@ -128,6 +128,12 @@ line-height: 162%;
     border-radius: 16px;
 }
 
+#trngl1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .back-block-text{
     width:605px;
     height: 359px;
@@ -219,6 +225,26 @@ line-height: 162%;
     padding:0px;
 }
 
+#trngl4{
+    position:absolute;
+    top: 33.54px;
+    left: 39.27px;
+    z-index: 9;
+}
+
+#trngl2{
+    position: absolute;
+    right: 0px;
+    bottom: 561.79px;
+    z-index: 9;
+}
+
+#trngl3{
+    position: absolute;
+    right: 56.25px;
+    top:108.06px;
+    z-index: 9;
+}
 .popular-bonus-header-wr{
      position: absolute;
     top: 120px;
@@ -309,6 +335,17 @@ line-height: 162%;
    align-items: center;
 }
 
+#trngl6{
+    position: absolute;
+    top:27.06px;
+    left: 100.26px;
+}
+
+#trngl5{
+    position: absolute;
+    top: 103.49px;
+    left: 30.96px;
+}
 .suggestion-block h3{
     font-family: "Archivo", sans-serif;
     font-weight: 700;
@@ -507,6 +544,18 @@ line-height: 162%;
     position: absolute;
     top:2932px;
     background-color: #22CCB2;
+}
+
+#trngl7{
+    position: absolute;
+    right: 47.96px;
+    bottom: 250.49px;
+}
+
+#trngl8{
+    position: absolute;
+    right: 30.25px;
+    bottom: 394.06px;
 }
 
 .often-questions h3{
