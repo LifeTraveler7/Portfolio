@@ -7,25 +7,27 @@ body {
 }
 
 .wrapper{
-   width: 1921px;
+   width: 1922px;
    height: 5643px;
    padding: 0px;
    margin: 0px;
    border: 1px solid black;
    box-sizing: border-box;
-   
+   position: relative;   
 }
 
 .head-block{
-    width: 1921px;
+    width: 1920px;
     height: 80px;
     position: fixed; 
-    /* border: 1px solid black; */
+    border: 1px solid black; 
     top:0px;
     display: flex;
     flex-direction: row;  
     background-color: #ffffff;
     z-index: 999;
+    margin:0px;
+    box-sizing: border-box;
    
     
 }
@@ -39,7 +41,7 @@ body {
 }
 .head-links{
     width: 538px;
-    height: 80px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -100,25 +102,14 @@ line-height: 162%;
 }
 
 /* Main block */
-.main-wrapper{
-    width: 1922px;
-    height: 5133px;
-    margin:0px;
-    margin-top: 119px;
-    border: 1px solid green;
-    position: relative;
-    background-color: #ffffff;
-
-}  
-
 .mobile-operator-block{
     width: 100%;
     height: 644px;
     /* border: 1px solid green; */
     overflow: hidden;
     z-index: 1;
-    position: relative;
-    
+    position: absolute;
+    top:119px;
 }
 
 #girl-pctr{
@@ -128,14 +119,13 @@ line-height: 162%;
 }
 
 .back-block{
-width: 1442px;
-height: 526px;
-background-color: #22CCB2;
-position: absolute;
-z-index: 2;
-margin: 48px 240px 70px 240px;
-border-radius: 16px;
-
+    width: 1442px;
+    height: 526px;
+    background-color: #22CCB2;
+    position: absolute;
+    z-index: 2;
+    margin: 48px 240px 70px 240px;
+    border-radius: 16px;
 }
 
 .back-block-text{
@@ -161,14 +151,12 @@ border-radius: 16px;
     margin-top: -10px;
     margin-bottom: 0px;
     box-sizing: border-box;
-    
 }
 
-
 .operator-block-text{
-  width: 528px;
-  height: 112px;
-  font-family: "Inter", sans-serif;
+    width: 528px;
+    height: 112px;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -182,6 +170,7 @@ border-radius: 16px;
     height: 52px;
     margin-top: 40px;
 }
+
 #bttn1{
     background-color:white ;
     margin-right: 38px;
@@ -213,15 +202,14 @@ border-radius: 16px;
     box-shadow: 0px 0px 10px 5px white;
 }
 
-
-
 /* Bonus block */
+
 .bonus-block{
     width: 100%;
     height: 696px;
     /* border: 1px solid blue; */
     position: absolute;
-    top:605px;
+    top: 724px;
     left: 0px;
     z-index: 8;
     background-color: white;
@@ -237,6 +225,7 @@ border-radius: 16px;
      left: 678px;
    
 }
+
 #popular-bonus-header{
     font-family: "Archivo", sans-serif;
     font-weight: 700;
@@ -312,13 +301,12 @@ border-radius: 16px;
     position: absolute;
     z-index: 8;
     background-color: #22CCB2;
-    top: 1325px;
+    top: 1452px;
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
    align-items: center;
-    
 }
 
 .suggestion-block h3{
@@ -372,7 +360,7 @@ border-radius: 16px;
     width: 100%;
     height: 736px;
     position: absolute;
-    top: 1957px;
+    top: 2076px;
     /* border: 1px solid violet; */
     background-color: #F8F9FA;
     padding: 0px;
@@ -517,9 +505,8 @@ border-radius: 16px;
     width: 100%;
     height: 989px;
     position: absolute;
-    top:2813px;
+    top:2932px;
     background-color: #22CCB2;
-
 }
 
 .often-questions h3{
@@ -590,7 +577,7 @@ border-radius: 16px;
     width: 100%;
     height: 872px;
     position: absolute;
-    top: 3922px;
+    top: 4041px;
     background-color: #F3F4F6;
     overflow: hidden;
 }
@@ -702,7 +689,7 @@ border-radius: 16px;
 footer{
     width: 1922px;
     height: 510px;
-    position: relative;
+    position: absolute;
     bottom:0px;
     background-color: #0A7968;
     display: flex;
@@ -755,7 +742,6 @@ footer{
     margin-left: 0px;
     margin-right: 67px;
     box-sizing: border-box;
-    
 }
 
 .quick-link h6, .contact-us h6{
