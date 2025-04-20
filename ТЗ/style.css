@@ -2,31 +2,31 @@
 body {
     margin: 0px;
     padding: 0px;
-     max-width: 1922px;
-    margin: 0 auto;
+    max-width: 1922px;
+    /* margin: 0 auto;  */
 }
 
 .wrapper{
-   width: 1922px;
-   height: 5643px;
+   width: 1932px;
+   height: 5643px; 
    padding: 0px;
    margin: 0px;
-   border: 1px solid black;
+   border: 6px solid black;
    box-sizing: border-box;
    position: relative;   
 }
 
 .head-block{
-    width: 1920px;
+    width: 1921px;
     height: 80px;
     position: fixed; 
-    border: 1px solid black; 
+    border: 0 solid #fff; 
     top:0px;
     display: flex;
     flex-direction: row;  
     background-color: #ffffff;
     z-index: 999;
-    margin:0px;
+    margin:0px auto;
     box-sizing: border-box;
    
     
@@ -44,7 +44,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     align-items: center;
     font-family: Inter;
     font-size: regular;
@@ -61,12 +61,14 @@ body {
     border:none;
     margin: 0px;
     padding: 0px;
+    padding-top: 3px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px; 
     line-height: 162%;
     color: #565e6c;
     white-space: nowrap;
+    
 }
 
 .head-links button:focus {
@@ -101,6 +103,34 @@ line-height: 162%;
     box-shadow:3px -3px 10px  #22CCB2;
 }
 
+#lnk1{
+    width: 125.25px;
+    height: 100%;
+    font-weight: bold;
+    color: #22CCB2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 26px; */ 
+    line-height: 162%;
+    color: #22ccb2;
+    border-bottom: 4px solid #22CCB2 
+}
+
+#lnk2{
+    width:116.25px;
+    height: 100%;
+}
+
+#lnk3{
+    width: 188.25px;
+    height: 100%;
+}
+
+#lnk4{
+    width: 108.25px;
+    height: 100%;
+}
 /* Main block */
 .mobile-operator-block{
     width: 100%;
@@ -115,6 +145,7 @@ line-height: 162%;
 #girl-pctr{
     position: absolute;
     left: 259px;
+    
     z-index: 3;
 }
 
@@ -124,7 +155,7 @@ line-height: 162%;
     background-color: #22CCB2;
     position: absolute;
     z-index: 2;
-    margin: 48px 240px 70px 240px;
+    margin: 43px 240px 70px 240px;
     border-radius: 16px;
 }
 
