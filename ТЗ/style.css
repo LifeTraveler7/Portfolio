@@ -258,28 +258,28 @@ padding-top: 4px;
 
 #trngl4{
     position:absolute;
-    top: 33.54px;
-    left: 39.27px;
+    top: 50px;
+    left: 40px;
     z-index: 9;
 }
 
 #trngl2{
     position: absolute;
     right: 0px;
-    bottom: 561.79px;
+    bottom: 573px;
     z-index: 9;
 }
 
 #trngl3{
     position: absolute;
-    right: 56.25px;
-    top:108.06px;
+    right: 66px;
+    top:120px;
     z-index: 9;
 }
 .popular-bonus-header-wr{
      position: absolute;
     top: 119px;
-     left: 767px;
+     left: 769px;
    
 }
 
@@ -296,15 +296,23 @@ padding-top: 4px;
 .bonus-card{
     border: 0px solid #bcc1ca;
     border-radius: 16px;
-    width: 336px;
-    height: 352px;
-    margin-top: 80px;
+    width: 338px;
+    height: 354px;
     box-shadow: 0 0 1px 0 rgba(23, 26, 31, 0.07), 0 0 2px 0 rgba(23, 26, 31, 0.12);
     background: rgba(248, 249, 250, 0.8);
     display: flex;
     justify-content: center;
     align-items:center  ;
     flex-direction: column;
+    padding: 0px;
+    border:1px green dotted;
+   
+}
+
+.bonus-card img{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
 }
 
 .bonus-card h5{
@@ -315,6 +323,8 @@ padding-top: 4px;
     line-height: 150%;
     text-align: center;
     color: #323842;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .bonus-card p{
@@ -327,26 +337,45 @@ padding-top: 4px;
     line-height: 157%;
     text-align: center;
     color: #565e6c;
+    margin-top: 54px;
+
 }
 
 #first-card{
-    margin-top: 256px;
+    margin-top: 167px;
     margin-left: 240px;
+    padding: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
 #second-card{
-    margin-top: 256px;  
-    margin-left: 32px;
+    margin-top: 167px;  
+    margin-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
 #third-card{
-    margin-top: 256px;
-    margin-left: 32px;
+    margin-top: 167px;
+    margin-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#third-card h5{
+    margin-bottom:0px;
+}
+
+#third-card p{
+    margin-top: 24px;
 }
 
 #fourth-card{
-    margin-top: 256px;
-    margin-left: 32px;
+    margin-top: 167px;
+    margin-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
 /* Suggestion */
