@@ -387,7 +387,7 @@ padding-top: 4px;
     position: absolute;
     z-index: 8;
     background-color: #22CCB2;
-    top: 1452px;
+    top: 1448px;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -397,14 +397,14 @@ padding-top: 4px;
 
 #trngl6{
     position: absolute;
-    top:27.06px;
-    left: 100.26px;
+    top: 39px;
+    left: 101px;
 }
 
 #trngl5{
     position: absolute;
-    top: 103.49px;
-    left: 30.96px;
+    top: 124px;
+    left: 34px;
 }
 .suggestion-block h3{
     font-family: "Archivo", sans-serif;
@@ -416,8 +416,9 @@ padding-top: 4px;
     color: #fff;
     width: 464px;
     height: 112px;
-    margin-top: 120px;
+    margin-top: 121px;
     margin-bottom: 0px; 
+    margin-left: 2px;
 }
 
 .suggestion-block >p{
@@ -432,6 +433,8 @@ padding-top: 4px;
     height: 78px;
     margin-top: 24px;
     margin-bottom: 0px;
+    margin-left: 2px;
+    
 }
 
 .suggestion-block button{
@@ -439,13 +442,14 @@ padding-top: 4px;
     border-radius: 6px;
     width: 204px;
     height: 52px;  
-    margin-top: 40px;  
+    margin-top: 39px;  
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
     /* line-height: 28px; */ 
     line-height: 156%;
     color: #636ae8;
+    margin-left: 1px;
 }
 
 .suggestion-block button:active{
