@@ -266,19 +266,19 @@ padding-top: 4px;
 #trngl2{
     position: absolute;
     right: 0px;
-    bottom: 573px;
+    bottom: 571px;
     z-index: 9;
 }
 
 #trngl3{
     position: absolute;
     right: 66px;
-    top:120px;
+    top:121px;
     z-index: 9;
 }
 .popular-bonus-header-wr{
      position: absolute;
-    top: 119px;
+    top: 121px;
      left: 769px;
    
 }
