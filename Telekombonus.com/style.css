@@ -471,20 +471,22 @@ padding-top: 4px;
 .feedback-container{
     width: 1176px;
     height: 496px;
-    background-color:#ffffff ;
+    background-color:#fff ;
     margin:0 auto;
     /* border: 1px solid black; */
     position: relative;
-    top: 120px; 
+    top: 114px; 
+    left: 1px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    box-shadow: 0 4px 9px 0 rgba(23, 26, 31, 0.11), 0 0 2px 0 rgba(23, 26, 31, 0.12);
+    border-radius: 16px;
 }
 
 .backround-img{
-    width: 105.14px;
-    height: 83.25px;
+    width: 115px;
+    height: 94px;
     position: absolute;
     top:75px;
     left: 514px;
@@ -503,11 +505,15 @@ padding-top: 4px;
     width: 326px;
     height: 112px;
     z-index: 9;
+    margin-top: 25px;
+    margin-left:92px;
+    margin-right:154px;
 }
 
 .feedback-card{
     width: 491px;
     height: 276px;
+    margin-top: 15px;
     z-index: 9;
     
 }
@@ -515,7 +521,7 @@ padding-top: 4px;
 #feedback-text{
     width: 100%;
     height: 180px;
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 24px;    
@@ -523,6 +529,8 @@ padding-top: 4px;
     line-height: 150%;
     color: #565e6c;
     margin: 0px;
+    text-align: left;
+    letter-spacing: 0.55px;
 }
 
 .user-card{
@@ -539,7 +547,7 @@ padding-top: 4px;
     width: 64px;
     height: 64px;
     border-radius:32px;
-    margin: -1px;
+    margin: 0px;
     margin-right: 16px;
     padding: 0px;
 }
@@ -564,10 +572,13 @@ padding-top: 4px;
     line-height: 157%;
     color: #171a1f;
     margin: 0px;
+    margin-top: 3px;
+    white-space: nowrap;
 }
 
 .user-info h6{
     margin: 0px;
+    margin-top: 5px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -578,16 +589,17 @@ padding-top: 4px;
 }
 
 .arrows{
-    width: 64px;
+    width: 66px;
     height: 24px;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom:102px;
-    right: 46px;
+    bottom:100px;
+    right: 44px;
     box-sizing:border-box;
     margin: 0px;
     padding: 0px;
+    
 }
 
 
