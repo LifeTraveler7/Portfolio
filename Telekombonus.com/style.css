@@ -1015,8 +1015,13 @@ footer{
 }
 
 
+
 #phone-information{
     margin-bottom: 15px;
+}
+
+#phone-information p{
+    margin-top: 2px;
 }
 
 #adress-information img{
