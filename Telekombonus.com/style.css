@@ -8,7 +8,7 @@ body {
 
 .wrapper{
    width: 1932px;
-   height: 5649px; 
+   height: 5643px; 
    padding: 0px;
    margin: 0px;
    border: 6px solid black;
@@ -869,10 +869,12 @@ footer{
     width: 1922px;
     height: 510px;
     position: absolute;
-    bottom:0px;
+    top: 5127px;
     background-color: #0A7968;
     display: flex;
     flex-direction: row;
+    z-index: 12;
+    
 }
 
 .footer-text{
@@ -883,6 +885,7 @@ footer{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    border: 1px #0A7968 solid;
 }
 
 .logo-container{
@@ -893,6 +896,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 1px  #0A7968 solid ;
 }
 
 .logo-container h6{
@@ -905,19 +909,30 @@ footer{
     width: 202px;
     height: 48px;
     padding: 0px;
-    margin: 0px;
+    margin: -1px 0px 0px 6px;
+    
+}
+
+#footer-text-p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 22px; */ 
+    line-height: 157%;
+    color: #dee1e6;
+    margin-top: 20px;
 }
 
 #footer-logo{
     width: 65px;
     height: 65px;
-    margin: 0px 8px 0px 0px;
+    margin: -2px 8px 0px -2px;
 }
 
 .quick-link{
     width: 140px;
     height: 226px;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-left: 0px;
     margin-right: 67px;
     box-sizing: border-box;
@@ -973,7 +988,7 @@ footer{
     height: 24px;
 }
 
-.footer-text p, .contact-us p{
+.footer-text p{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -988,4 +1003,39 @@ footer{
     margin-bottom: 17px;
 }
 
+.contact-us p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */ 
+    line-height: 162%;
+    color: #bcdcd7;
+    margin-top: 0px;
+    margin-left: 13px;
+}
 
+
+#phone-information{
+    margin-bottom: 15px;
+}
+
+#adress-information img{
+    margin-top: 2px;
+}
+
+#trngl9{
+    width: 54px;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+    left: 21.03px;
+    z-index: 19;
+}
+
+#trngl10{
+   width: 36px;
+   height: 22px;
+   position: absolute;
+   top: 361.42px;
+   left: 72.15px;
+}
