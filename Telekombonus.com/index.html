@@ -20,7 +20,7 @@
                 <button type="button" id="lnk3" onclick="window.location.href='#mobile-operator-block' ">Mobil Operatörler</button>  
                 <button type="button" id="lnk4" onclick="window.location.href='#contact-form-block'  " >İletişim</button> 
             </div>
-            <button type="button" class="hemen-link-button">Hemen Başla</button>
+            <button type="button" class="hemen-link-button" onclick="window.location.href='#contact-form-block'">Hemen Başla</button>
         </header> 
         <main class="main-wrapper">
             <section class="mobile-operator-block" id="mobile-operator-block">
@@ -150,10 +150,10 @@
                 <div class="contact-form-wrapper">
                     <h5>Bize Ulaşın</h5>
                     <p>Sorularınız mı var veya yardıma mı ihtiyacınız var? Formu doldurun, en kısa sürede sizinle iletişime geçelim!</p>
-                    <form action="">
-                        <input type="text" placeholder="Adınız" id="name-input"></input>
-                        <input type="text" placeholder="Email" id="email-input"></input>
-                        <input type="text" placeholder="Phone Number" id="phone-number"></input>
+                    <form action="" method="post" onsubmit="myFunction()">
+                        <input type="text" placeholder="Adınız" id="name-input" required></input>
+                        <input type="email" placeholder="Email" id="email-input" required></input>
+                        <input type="tel" placeholder="Phone Number" id="phone-number" required></input>
                         <button id="form-bttn">Mesaj Gönder</button>
                     </form>
                 </div>
