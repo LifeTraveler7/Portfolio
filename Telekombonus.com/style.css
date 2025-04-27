@@ -195,6 +195,7 @@ padding-top: 4px;
     margin-bottom: 0px;
     margin-top: 19px;
     text-align: left;
+    letter-spacing: 0.008em;   
 }
 
 .back-block-text button{
@@ -847,11 +848,11 @@ padding-top: 4px;
 }
 
 #tr7{
-    width: 734px;
-    height: 677px;
+    /* width: 734px;
+    height: 677px; */
     position: absolute;
-    top: 400px;
-    right: 350.09px;
+    top: 387px;
+    right: 322px;
     z-index: 7;
 }
 
@@ -1014,8 +1015,6 @@ footer{
     margin-left: 13px;
 }
 
-
-
 #phone-information{
     margin-bottom: 15px;
 }
@@ -1029,18 +1028,14 @@ footer{
 }
 
 #trngl9{
-    width: 54px;
-    height: 40px;
     position: absolute;
-    top: 340px;
-    left: 21.03px;
+    top: 334px;
+    left: 22px;
     z-index: 19;
 }
 
 #trngl10{
-   width: 36px;
-   height: 22px;
    position: absolute;
-   top: 361.42px;
-   left: 72.15px;
+   top: 367.42px;
+   left: 73.15px;
 }
