@@ -1,9 +1,12 @@
 
+html{
+    background-color: #bcc1ca;
+}
 body {
     margin: 0px;
     padding: 0px;
     max-width: 1922px;
-    /* margin: 0 auto;  */
+    margin: 0 auto;
 }
 
 .wrapper{
@@ -11,7 +14,8 @@ body {
    height: 5643px; 
    padding: 0px;
    margin: 0px;
-   border: 6px solid black;
+   background-color: white;
+   border: 6px solid #bcc1ca;
    box-sizing: border-box;
    position: relative;   
 }
