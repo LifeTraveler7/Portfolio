@@ -2,6 +2,22 @@
 html{
     background-color: #bcc1ca;
 }
+
+@font-face {
+    font-family: "Archivo" ;
+    src:  
+    url(fonts/Archivo-VariableFont_wdth\,wght.ttf) format("ttf");
+    font-size:700;
+}
+
+@font-face {
+    font-family: "Inter" ;
+    src: 
+    url(fonts/Inter-VariableFont_opsz\,wght.ttf) format("ttf");
+    font-size: 400;
+}
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -10,12 +26,12 @@ body {
 }
 
 .wrapper{
-   width: 1932px;
+   width: 100%;
    height: 5643px; 
    padding: 0px;
    margin: 0px;
    background-color: white;
-   border: 6px solid #bcc1ca;
+   /* border: 6px solid #bcc1ca; */
    box-sizing: border-box;
    position: relative;   
 }
@@ -870,7 +886,7 @@ padding-top: 4px;
 
 /* Footer */
 footer{
-    width: 1922px;
+    width: 100%;
     height: 510px;
     position: absolute;
     top: 5127px;
